@@ -1,0 +1,538 @@
+/* Grid Responsiveness
+------------------------------------------------------------------------ */
+/* Large desktop size */
+@media only screen and (max-width: 1120px) {
+	.container { max-width: 1100px; width: 100%;}
+}
+@media only screen and (max-width: 960px) {
+	.container { max-width: 940px; width: 100%;}
+	.logo img { margin-left: 27px; width:50%;}
+.logo h1 {font-size: 17px}
+.logo img {padding-right: 10px;}
+.span11{width:80% !important;}
+.span2{width:10% !important;}
+.span10{width:70% !important;}
+a img{width:50%; margin-left: 25%;}
+.menu-button-open {
+    width: 24px;}
+    .span1{width:55px !important; margin-left: -20px !important;}
+    .tp-caption.desc {
+    padding-left: 5px !important;
+}
+.project-slider{margin-top:50px;}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 782px) {
+	.row-fluid, .row {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.container { 
+		width: 420px; 
+	}
+	.span1,
+	.span2,
+	.span3,
+	.span4,
+	.span5,
+	.span6,
+	.span7,
+	.span8,
+	.span9,
+	.span10,
+	.span11,
+	.span12 { width: 420px; margin: 0 0 30px; padding-left: 0; padding-right: 0;}
+	.span12 {
+    	margin-bottom: 0;
+    }
+
+	.vc_col-sm-1, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12 {
+		float: none !important;
+		width: 100% !important;
+	}
+}
+/* ------------------------------------------------------------------------ */
+/* Mobile (Portrait)
+/* ------------------------------------------------------------------------ */
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  	.row-fluid, .row {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+    .container { width: 370px; }
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12,
+    .one-third.column,
+    .two-thirds.column { width: 100%; margin: 0 0 20px 0; padding-left: 0; padding-right: 0;}
+    .span12 {
+    	margin-bottom: 0;
+    }
+}	
+/* ------------------------------------------------------------------------ */
+/* Smaller than standard 1120 (devices and browsers) */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 1640px) {
+	.tparrows.default {
+	    left: 80px !important;
+    }
+}
+@media only screen and (max-width: 1120px) {
+	.tp-caption.desc h2 {
+		padding-top: 30px;
+    }
+	#main {
+		height: auto;
+	}
+	#main .article:not(.is--pushed-right) {
+		height: auto;
+	}
+	#main .article.is--pushed-right {
+	    -webkit-transform: translate3d(80%,0,0);
+	    -moz-transform: translate3d(80%,0,0);
+	    -ms-transform: translate3d(80%,0,0);
+	    -o-transform: translate3d(80%,0,0);
+	    transform: translate3d(80%,0,0);
+	}
+	#main .blog-list {
+		width: 80%;
+	}
+	#main .article .header {
+		width: 100%;
+		position: relative;
+		height: 0;
+		padding-bottom: 56.9%;
+	}
+	#main .article .section {
+		width: 100%;
+		margin-left: 0;
+		overflow: visible;
+		position: static;
+		height: auto;
+		padding: 50px 10%;
+	}
+	#main .article .section .menu-button-open {
+		display: none;
+	}
+	#main .article .header .menu-button-open {
+		display: block;
+		opacity: 1;
+		color: #ffffff;
+	}
+	.pad-top-liq {
+		padding-top: 20%;
+	}
+	#main .blog-list {
+        width: 100%;
+        height:70vh;
+	}
+	#main .article {
+	   -webkit-transform: translate3d(0%,0%,0);
+        -moz-transform: translate3d(0%,0,0);
+        -ms-transform: translate3d(0%,0,0);
+        -o-transform: translate3d(0%,0,0);
+        transform: translate3d(0%,0%,0); 
+	}
+	#main .article.is--pushed-right {
+        -webkit-transform: translate3d(0%,70%,0);
+        -moz-transform: translate3d(0%,70%,0);
+        -ms-transform: translate3d(0%,70%,0);
+        -o-transform: translate3d(0%,70%,0);
+        transform: translate3d(0%,70%,0);
+    }
+    #main .article .header {
+        height: 50%;
+    }
+    #main .article .section {
+        height: 50%;
+    }
+    #main .article .header .back-to-posts {
+        right: 50%;
+        -webkit-transform: translate3d(50%,0,0);
+    -moz-transform: translate3d(50%,0,0);
+    -ms-transform: translate3d(50%,0,0);
+    -o-transform: translate3d(50%,0,0);
+    transform: translate3d(50%,0,0);
+    }
+}
+/* ------------------------------------------------------------------------ */
+/* Tablet Portrait size to standard 960 (devices and browsers) / 1. Step */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 960px) {
+	.blog-grid.cols-2 .blog-item,
+	.blog-grid.cols-4 .blog-item {
+		min-height: 250px;
+	}
+	.pad-top-liq {
+		padding-top: 15%;
+	}
+	#video-block .video video {
+	    height: 360px !important;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* All Mobile Sizes (devices and browser) / all under Tablet */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 782px) {
+	.tp-caption.desc h2 {
+		padding-top: 35px;
+		    font-size: 30px;
+    }
+    .tp-bullets{margin-top:25px !important;}
+    .tp-caption.img {
+    	display: none;
+    }
+	.blog-grid.cols-2 .blog-item,
+	.blog-grid.cols-4 .blog-item {
+		width: 100%;
+		float: none;
+		min-height: 200px;
+	}
+	#slider .slide {
+	    padding-left: 70px;
+	    padding-right: 70px;
+	}
+	#slider .fp-controlArrow.fp-prev {
+	    left: 70px;
+	}
+	#slider .fp-controlArrow.fp-next {
+	    left: 127px;
+	}
+	#slider .slide-2 .slide-bg,
+	#slider .slide-3 .slide-bg{
+	    background-position: left top;
+	}
+	#main .article.is--pushed-right {
+	    -webkit-transform: translate3d(90%,0,0);
+	    -moz-transform: translate3d(90%,0,0);
+	    -ms-transform: translate3d(90%,0,0);
+	    -o-transform: translate3d(90%,0,0);
+	    transform: translate3d(90%,0,0);
+	}
+	#main .blog-list {
+		width: 90%;
+	}
+	#main .article .header {
+		padding-bottom: 60%;
+	}
+	#main .article .header .info .title {
+		font-size: 22px;
+		letter-spacing: 2px;
+	}
+	#main .article .header .info .meta {
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.ipad-mockup {
+		float: none;
+		margin-right: 0;
+		width: 100%;
+		padding-bottom: 74.224%;
+	}
+	.portfolio-item {
+		width: 100%;
+		padding-top: 100%;
+	}
+	.portfolio-item.width-2x {
+		width: 100%;
+		padding-top: 70.275%;
+	}
+	.portfolio-item.portfolio-more-items {
+		background-color: #f7f7f7;
+		padding-top: 70.275%;
+		width: 100%;
+	}
+	.portfolio-header .portfolio-item-title {
+	    display: none;
+	}
+	.portfolio-more-items .load-more {
+		top: 30%;
+	}
+	#project-title {
+        padding: 150px 0px 80px;
+    }
+	.service-block {
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+	.clients-logo {
+		margin-bottom: 100px;
+	}
+	.clients-logo li {
+		width: 25%;
+		margin-bottom: 15px;
+		padding: 0 15px;
+	}
+	.cta-text {
+		margin-bottom: 30px;
+	}
+	.cta-text, .cta-button {
+		width: 100%;
+		display: block;
+		text-align: left;
+		overflow: hidden;
+	}
+	.cta-button .button {
+	    float: left;
+	}
+	.title-block h2 {
+	        line-height: 1em;
+    font-size: 25px;
+	}
+	.info-block {margin-bottom:0;}
+	.title-block{margin-top:75px;}
+	.team-members {
+		padding-top: 20px;
+	}
+	.team-member.span3 {
+	    margin: 0 auto 30px;
+	    display: block;
+	    float: none;
+	}
+	#blog {
+		padding: 80px 0;
+	}
+	#blog .blog-item {
+		min-height: 210px;
+		margin-bottom: 30px;
+	}
+	#contacts .socials li {
+		height: auto;
+	}
+	.socials li a div {
+		display: none;
+	}
+	.socials li a i {
+		display: block;
+	}
+	.map-block, .form-block {
+		width: 100%;
+		float: none;
+	}
+	.map-block #map {
+		height: 420px;
+	}
+	.form-block {
+		height: 420px;
+		padding: 0 50px;
+	}
+	.section.extra-pad .fp-tableCell {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* project details */
+	#description .description .text,
+	.portfolio-details-7 #description .description .text {
+		font-size: 18px;
+		padding-top: 60px;
+	}
+	#description .description .dropcap {
+		font-size: 170px;
+	}
+	#description .description .dropcap.dtcell,
+    #description .description .text.dtcell {
+        display: block;
+        width: 100%;
+    }
+	.project-pagin h3.project-title {
+	    line-height: 1.4em;
+	}
+	.portfolio-details .row div[class*="col-"] {
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	.gap,
+	.gap150,
+	.gap200 {
+		height: 30px;
+	}
+	#video-block .video video {
+	    height: 250px !important;
+	}
+	body.portfolio-details .section .fp-tableCell,
+	#placeholder {
+		padding: 50px 0;
+	}
+	.palette-block {
+		width: 33.3333%;
+	}
+	.project-info-list.items-inline li {
+		display: block;
+		padding-left: 0;
+		margin-bottom: 10px;
+	}
+	.menu-lightbox .menu li {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#lightbox-footer .copyright {
+		float: none;
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	#lightbox-footer .socials {
+		float: none;
+		text-align: center;
+	}
+	#lightbox-footer .socials li {
+		padding: 0 8px 8px;
+		display: inline-block;
+		float: none;
+	}
+	#lightbox-footer .socials li a i {
+		display: inline;
+		font-size: 16px;
+	}
+	#lightbox-footer .socials li a div {
+		display: none;
+	}
+	#lightbox-header {
+		position: static;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.menu-lightbox {
+		min-height: 530px;
+		height: 100vh;
+		overflow: auto;
+	}
+	.menu-lightbox .dtable {
+		height: auto;
+	}
+	.slogan h2 {
+		font-size: 125px;
+	}
+	.project-pagin {
+		float: none;
+	}
+	.project-pagin.project-prev {
+		float: none;
+		text-align: left;
+	}
+	.portfolio-details .cols-container-2,
+	.portfolio-details .cols-container {
+		max-width: 420px;
+	}
+	.project-title {
+		font-size: 22px;
+	}
+	.portfolio-details .cols-container-2 .row .col-3 {
+		padding: 0 10px;
+		width: 100%;
+	}
+	#details .details .details-img,
+	#details .details .details-description {
+		width: 100%;
+		display: block;
+	}
+	.client-inquiries {
+		position: relative;
+		padding-top: 30px;
+		bottom: auto;
+	}
+	.portfolio-details-8 #about {
+		padding-bottom: 40px;
+	}
+	.pad-top-liq {
+		padding-top: 0;
+	}
+	.project-title-stroke {
+	    font-size: 22px;
+	    -webkit-text-stroke: 1px #ffffff;
+        text-stroke: 1px #ffffff;
+	}
+	.portfolio-details-6 #description .text-block {
+	    padding: 0;
+	    font-size: 16px;
+	    line-height: 1.5em;
+	}
+	.wythe-parallax {
+	    background-attachment: scroll;
+	}
+	#main .blog-list {
+        width: 100%;
+        height:70vh;
+	}
+	#main .article {
+	   -webkit-transform: translate3d(0%,0%,0);
+        -moz-transform: translate3d(0%,0,0);
+        -ms-transform: translate3d(0%,0,0);
+        -o-transform: translate3d(0%,0,0);
+        transform: translate3d(0%,0%,0); 
+	}
+	#main .article.is--pushed-right {
+        -webkit-transform: translate3d(0%,70%,0);
+        -moz-transform: translate3d(0%,70%,0);
+        -ms-transform: translate3d(0%,70%,0);
+        -o-transform: translate3d(0%,70%,0);
+        transform: translate3d(0%,70%,0);
+    }
+    #main .article .header {
+        height: 50%;
+        height: 50vh;
+    }
+    #main .article .section {
+        height: 50%;
+    }
+    #main .article .header .back-to-posts {
+        right: 50%;
+        -webkit-transform: translate3d(50%,0,0);
+    -moz-transform: translate3d(50%,0,0);
+    -ms-transform: translate3d(50%,0,0);
+    -o-transform: translate3d(50%,0,0);
+    transform: translate3d(50%,0,0);
+    }
+    #main .article .menu-button-open span {
+        opacity: 1;
+        width: 100%;
+        color: #ffffff;
+    }
+    #main .article .menu-button-open {
+        margin-top: 13px;
+    }
+    #main .article.is--pushed-right .header .menu-button-open {
+        display: none;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Mobile Portrait size (devices and browsers) */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 480px) {
+	#main .blog-list .list-content-wrapper {
+		padding: 170px 20px 0;
+	}
+	#main .article .header .back-to-posts {
+		height: 36px;
+		line-height: 36px;
+		padding: 0 10px;
+		top: 72px;
+	}
+	#main .article .header {
+		padding-bottom: 90%;
+	}
+	.meta-tags a {
+		margin: 0 12px;
+	}
+	.portfolio-details .cols-container-2,
+	.portfolio-details .cols-container {
+		max-width: 320px;
+	}
+}
+/* ------------------------------------------------------------------------ */
+/* EOF
+/* ------------------------------------------------------------------------ */
