@@ -2,9 +2,9 @@
 class connect 
 {   
     private $host = "localhost";
-    private $db_name = "pounds";
-    private $username = "roott";
-    private $password = "stardawn3000!";
+    private $db_name = "";
+    private $username = "";
+    private $password = "";
     public $conn;
     
     public function connect()
